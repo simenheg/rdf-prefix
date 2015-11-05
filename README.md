@@ -16,7 +16,7 @@ file:
 (require 'rdf-prefix)
 ```
 
-Alternatively, it can be installed via [MELPA](http://melpa.milkbox.net/).
+Alternatively, it can be installed via [MELPA](https://melpa.org/).
 
 ## Usage
 
