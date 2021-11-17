@@ -23,4 +23,7 @@ Alternatively, it can be installed via [MELPA](https://melpa.org/).
 This package provides the `rdf-prefix-insert` command, which is used to look
 up- and insert URIs based on a prefix.
 
-The prefix list is pulled regularly from http://prefix.cc/.
+The prefix list is pulled semi-regularly from http://prefix.cc/.
+- Use the perl script `rdf-prefix-update.pl` to get a new version, then replace the variable `rdf-prefix-alist`
+- TODO: reimplement as elisp function `rdf-prefix-update`
+- Last updated: 17-Nov-2021
