@@ -2863,8 +2863,7 @@
     ("zem" . "http://s.zemanta.com/ns#")
     ("zoology" . "http://purl.org/NET/biol/zoology#")
     ("zoomaterms" . "http://rdf.ebi.ac.uk/vocabulary/zooma/")
-    ("zr" . "http://explain.z3950.org/dtd/2.0/")
-))
+    ("zr" . "http://explain.z3950.org/dtd/2.0/")))
 
 (defvar rdf-prefix-history nil
   "History list for RDF prefix lookup.")

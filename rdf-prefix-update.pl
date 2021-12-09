@@ -16,7 +16,7 @@ while ($prefixes =~ m{resource="(.*?)" .*? href="(.*?)"}g) {
 print "(defvar rdf-prefix-alist\n";
 my $n = 0;
 for (sort keys %prefix) {
-  print $n++ == 0 ? "  '((" : "    (";
-  print qq{"$_" . "$prefix{$_}")\n}
+  print $n++ == 0 ? "  '((" : "\n    (";
+  print qq{"$_" . "$prefix{$_}")}
 };
 print "))\n\n";
