@@ -1,10 +1,10 @@
 ;;; rdf-prefix.el --- Prefix lookup for RDF  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2014-2023 Simen Heggestøyl
+;; Copyright (C) 2014-2024 Simen Heggestøyl
 
 ;; Author: Simen Heggestøyl <simenheg@runbox.com>
 ;; Maintainer: Simen Heggestøyl <simenheg@runbox.com>
-;; Version: 1.13
+;; Version: 1.14
 ;; Keywords: convenience, abbrev
 ;; Homepage: https://github.com/simenheg/rdf-prefix
 
@@ -212,7 +212,7 @@
     ("bf" . "http://id.loc.gov/ontologies/bibframe/")
     ("bflc" . "http://id.loc.gov/ontologies/bflc/")
     ("bfo" . "http://purl.obolibrary.org/obo/")
-    ("bgcat" . "http://bg.dbpedia.org/resource/ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ:")
+    ("bgcat" . "http://bg.dbpedia.org/resource/Категория:")
     ("bgdbp" . "http://bg.dbpedia.org/property/")
     ("bgdbr" . "http://bg.dbpedia.org/resource/")
     ("bgn" . "http://bibliograph.net/schemas/")
@@ -772,6 +772,7 @@
     ("ens" . "http://models.okkam.org/ENS-core-vocabulary.owl#")
     ("ensembl" . "http://rdf.ebi.ac.uk/resource/ensembl/")
     ("environ" . "http://eulersharp.sourceforge.net/2003/03swap/environment#")
+    ("envo" . "http://purl.obolibrary.org/obo/ZP_")
     ("eol" . "http://purl.org/biodiversity/eol/")
     ("ep" . "http://eprints.org/ontology/")
     ("epcis" . "https://ns.gs1.org/epcis/")
